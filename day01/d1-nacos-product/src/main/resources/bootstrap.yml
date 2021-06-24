@@ -1,0 +1,23 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.115.88.249:8848
+        namespace: nacos-dev
+        group: dev
+      config:
+        server-addr: 47.115.88.249:8848
+        namespace: nacos-dev
+        group: dev
+        file-extension: yml
+  application:
+    name: d1-nacos-product
+  profiles:
+    active: dev
+
+
+#server:
+#  port: 8080
+
+
+

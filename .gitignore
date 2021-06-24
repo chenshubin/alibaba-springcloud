@@ -1,0 +1,5 @@
+# Project exclude paths
+/common/target/
+/dao/target/
+/day01/d1-nacos-order/target/
+/day01/d1-nacos-product/target/
